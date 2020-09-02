@@ -1,0 +1,31 @@
+Instalar NodeJs (nodejs.org/en)
+Instalar o Git (git-scm.com)
+
+npm install -g create-react-app
+
+npx create-react-app react-conceitos
+
+npm start
+
+
+=========================================================
+		CRIANDO NOVO COMPONENTE
+=========================================================
+
+import React from 'react';
+
+export default() => {
+    return(
+        <>
+             <h1>Componente Cabeçalho</h1>
+             <p>Testar memso pow</p>
+        </>
+    )
+}
+
+=========================================================
+		    REACT BOOSTRAP
+=========================================================
+
+react-bootstrap.github.io/components/alerts
+npm install react-bootstrap bootstrap
