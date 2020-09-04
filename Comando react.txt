@@ -1,10 +1,11 @@
 Instalar NodeJs (nodejs.org/en)
 Instalar o Git (git-scm.com)
 
+//Cria um projeto novo
 npm install -g create-react-app
-
 npx create-react-app react-conceitos
 
+//Inicia um projeto
 npm start
 
 
@@ -29,3 +30,9 @@ export default() => {
 
 react-bootstrap.github.io/components/alerts
 npm install react-bootstrap bootstrap
+
+=========================================================
+		    REACT ROUTER DOM
+=========================================================
+
+npm i react-router-dom
