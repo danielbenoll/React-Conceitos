@@ -1,9 +1,14 @@
 import React from 'react';
-import { Alert } from 'react-bootstrap';
+import { Alert, Jumbotron } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default() => {
     return(
         <>
+          <Jumbotron>
+                <h1>Página 1</h1>
+          </Jumbotron>
+
           <Alert variant="danger">
             <strong>Atenção!</strong> Isto é um alerta do React - Boostrap
           </Alert>
@@ -22,6 +27,7 @@ export default() => {
           <Alert variant="dark">
             <strong>Atenção!</strong> Isto é um alerta do React - Boostrap
           </Alert>
+
         </>
     )
 }

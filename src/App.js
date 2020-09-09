@@ -9,7 +9,7 @@ import Rotas from './Rotas';
 function App() {
   return (
     <div>
-        <Cabecalho texto="DANIEL MARAVILHOSO" titulo="Cabeçalho"/>
+        
         <main>
           <Rotas/>
         </main>
