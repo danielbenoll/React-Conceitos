@@ -21,15 +21,14 @@ export default() => {
                         <Col md="3" >
                             <Cartao titulo={item.marca + ' - ' + item.modelo} foto={item.foto}>
                                 <Row>
-                                <Col>
-                                    Ano: <strong>{item.ano}</strong>
-                                </Col>
-                                <Col>
-                                    <Button variant="dark">Detalhes</Button>
-                                </Col>
-                            </Row>
+                                    <Col>
+                                        Ano: <strong>{item.ano}</strong>
+                                    </Col>
+                                    <Col>
+                                        <Button variant="dark">Detalhes</Button>
+                                    </Col>
+                                </Row>
                             </Cartao>
-                            
                         </Col>
                     ))}
                 </Row>

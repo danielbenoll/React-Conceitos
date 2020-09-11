@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Container, Card, Row, Col, Button } from 'react-bootstrap';
+
+import Cartao from '../components/Cartao';
 import Pagina from '../components/Pagina';
 
 export default() => {
@@ -20,21 +22,16 @@ export default() => {
                 <Row>
                     {carros.map(item => (
                         <Col xs={3} className="mb-3">
-                            <Card>
-                                <Card.Img variant="top" src={item.foto} />
-                                <Card.Body>
-                                    <Card.Title>{item.marca} - {item.modelo}</Card.Title>
-                                    <Card.Text>
-                                        <Row>
-                                            <Col>
-                                                Ano: <strong>{item.ano}</strong></Col>
-                                            <Col>
-                                                <Button variant="primary">Detalhes</Button>
-                                            </Col>
-                                        </Row>
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <Cartao titulo={item.marca + ' - ' + item.modelo} foto={item.foto}>
+                                <Row>
+                                    <Col>
+                                        Ano: <strong>{item.ano}</strong>
+                                    </Col>
+                                    <Col>
+                                        <Button variant="dark">Detalhes</Button>
+                                    </Col>
+                                </Row>
+                            </Cartao>
                         </Col>
                     ))}
                 </Row>
