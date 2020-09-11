@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron } from 'react-bootstrap';
+import Pagina from '../components/Pagina';
 
 export default() => {
     return(
         <>
-            <Jumbotron>
-                <h1>Página 2</h1>
-            </Jumbotron>
+            <Pagina titulo ="Página 2">
 
-            <h1>Página 2</h1>
+                <p>Está é a página 2</p>
+            </Pagina>
 
-            <p>Está é a página2</p>
+
             
         </>
     )

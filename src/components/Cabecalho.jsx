@@ -19,6 +19,8 @@ export default (props) => {
                         <Link to="/pagina-3">Página 3</Link>
                         <Link to="/array">Array</Link>
                         <Link to="/carros">Carro</Link>
+                        <Link to="/dever4">Dever 4</Link>
+                        <Link to="/alunos">Alunos</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Container } from 'react-bootstrap';
+import Pagina from '../components/Pagina';
 
 export default() => {
 
@@ -15,18 +16,13 @@ export default() => {
 
     return(
         <>
-            <Jumbotron>
-                <Container>
-                    <h1>Array</h1>
-                </Container>
-            </Jumbotron>
-            <Container>
+            <Pagina titulo="Array">
                 <ul>
                     {carros.map(item => (
                         <li>{item}</li>
                     ))}
                 </ul>
-            </Container>
+            </Pagina>
         </>
     )
 }
