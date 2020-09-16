@@ -28,6 +28,12 @@ export default() => {
 		    REACT BOOSTRAP
 =========================================================
 
+https://github.com/react-bootstrap/react-router-bootstrap
+
+<LinkContainer to="/home">
+    <Nav.Link eventKey={1}>Home</Nav.Link>
+</LinkContainer>
+
 react-bootstrap.github.io/components/alerts
 npm install react-bootstrap bootstrap
 
@@ -44,3 +50,18 @@ npm i react-router-dom
 {carros.map(item => (
     <li>{item}</li>
 ))}
+
+=========================================================
+		        Instalando o Axios
+=========================================================
+
+requisições http (consumir API REST)
+npm i axios
+
+=========================================================
+		        Fetch Api Get
+=========================================================
+
+apiFilmes.get('movie/popular').then(results => {
+    console.log(results.data.results)
+})
