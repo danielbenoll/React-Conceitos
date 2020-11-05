@@ -65,3 +65,10 @@ npm i axios
 apiFilmes.get('movie/popular').then(results => {
     console.log(results.data.results)
 })
+
+=========================================================
+		        React Hook Form
+=========================================================
+
+react-hook-form.com/pt/get-started
+npm install react-hook-form

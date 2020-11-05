@@ -8,6 +8,10 @@ import Array from './pages/Array';
 import Carros from './pages/Carros';
 import Dever4 from './pages/Dever4';
 import Alunos from './pages/Alunos';
+import Contador from './pages/Contador';
+import Cep from './pages/Cep';
+import Professor from './pages/professor/Professor';
+import EscolaForm from './pages/escola/EscolaForm';
 
 export default() => {
     return(
@@ -24,6 +28,10 @@ export default() => {
                 <Route exact path="/carros" component={Carros}/>
                 <Route exact path="/dever4" component={Dever4}/>
                 <Route exact path="/alunos" component={Alunos}/>
+                <Route exact path="/contador" component={Contador}/>
+                <Route exact path="/cep" component={Cep}/>
+                <Route exact path="/professor" component={Professor}/>
+                <Route exact path="/escolas" component={EscolaForm}/>
             </BrowserRouter>
         </>
     )

@@ -21,6 +21,10 @@ export default (props) => {
                         <Link to="/carros">Carro</Link>
                         <Link to="/dever4">Dever 4</Link>
                         <Link to="/alunos">Alunos</Link>
+                        <Link to="/contador">Contador</Link>
+                        <Link to="/cep">Cep</Link>
+                        <Link to="/professor">Professor</Link>
+                        <Link to="/escolas">Escolas</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
