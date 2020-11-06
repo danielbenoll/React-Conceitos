@@ -72,3 +72,4 @@ apiFilmes.get('movie/popular').then(results => {
 
 react-hook-form.com/pt/get-started
 npm install react-hook-form
+npm install @hookform/resolvers yup
